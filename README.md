@@ -54,6 +54,7 @@ To make all these in one command, you would run:
 
 ```bash
 > rails generate scaffold Apartment address:string price:float description:text image_url:string
+rails generate scaffold Post title:string description:text
 ```
 
 The above command would also build out tests for your views, controller, etc. If
